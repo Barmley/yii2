@@ -1,0 +1,6 @@
+#AddDefaultCharset Off
+#<IfModule dir_module>
+#    DirectoryIndex index.php
+#</IfModule>
+RewriteEngine On
+RewriteRule ^(.+)?$ /web/$1
